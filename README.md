@@ -1,6 +1,8 @@
 # Sertie_UI_redesign
 Welcome to the **Sertie UI Redesign Project**! 🚀 This is a modernized, mobile-friendly, and visually enhanced redesign of the existing Sertie website, focused on improving UI/UX.
 
+The previous design had navigation issues, lacked modern UI elements, and was not mobile-friendly. This redesign enhances accessibility, improves responsiveness, and provides a better user experience for all users.
+
 Features:
 1. Fully optimized for mobile and desktop
 2. Improved layout, typography, and interactivity
