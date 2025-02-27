@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Navigation Links - Hover Animation */
+.navbar-nav .nav-link {
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Underline effect */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: white;
+    left: 50%;
+    bottom: -5px;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* Expand underline on hover */
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Change text color on hover */
+.navbar-nav .nav-link:hover {
+    color: #FFD700;
+}
+
+/* Hero Section */
+.hero {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Features Section */
+.features img {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Sign Up Button - Hover Animation */
+.signup-btn, .btn-success {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.signup-btn:hover, .btn-success:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.5);
+}
+
+/* Job Cards - Centered */
+.job-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.job-card {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Floating Icon */
+.floating {
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Floating Effect */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Back to Top Button */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+#backToTop:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

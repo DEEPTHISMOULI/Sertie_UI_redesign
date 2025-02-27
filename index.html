@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertie UI Redesign</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="#">Company Logo</a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-light text-success" href="#">Sign Up / Login</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="container text-center py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Welcome to Sertie</h1>
+                <p>Engage with an improved UI and seamless experience.</p>
+                <button class="btn btn-success btn-lg">Get Started</button>
+            </div>
+            <div class="col-md-6">
+                <img src="hero-image.jpg" class="img-fluid" alt="Hero Image">
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="illustration.png" class="img-fluid" alt="Feature Image">
+            </div>
+            <div class="col-md-6">
+                <h2>Key Features and Benefits</h2>
+                <p>Job recommendations, resume tips, etc.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign Up Form -->
+    <section class="text-center py-4">
+        <button class="btn btn-success btn-lg">Sign Up</button>
+    </section>
+
+    <!-- Job Cards Section -->
+    <section class="container text-center py-4">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <label for="industry">Filter by Industry:</label>
+                <select id="industry" class="form-select">
+                    <option>All</option>
+                    <option>IT</option>
+                    <option>Healthcare</option>
+                    <option>Finance</option>
+                </select>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-4 job-card p-3 bg-white shadow rounded">Job Title - Company Name - Apply</div>
+            <div class="col-md-4 job-card p-3 bg-white shadow rounded">Job Title - Company Name - Apply</div>
+        </div>
+    </section>
+
+    <!-- Floating Icon -->
+    <img src="floating-icon.png" class="floating" alt="Floating Icon">
+
+    <!-- Back to Top Button -->
+    <button id="backToTop">⬆</button>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-white">
+        <p>© 2025 Sertie. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" class="text-white mx-2">🔗 Facebook</a>
+            <a href="#" class="text-white mx-2">🔗 Twitter</a>
+            <a href="#" class="text-white mx-2">🔗 LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
