@@ -9,6 +9,7 @@ Features:
 5. Contrast improvements, keyboard navigation, and alt text support
 6. Lightweight, fast-loading UI
 
+Screenshots of how the website front-end looks like:
 [Desktop view 1](https://github.com/user-attachments/assets/d159572e-22e2-4add-9c80-e0b11aa6a9d9)
 [Desktop 2](https://github.com/user-attachments/assets/d3d106a6-b15b-4c0b-96fb-30adff13e037)
 [Mobile view 1](https://github.com/user-attachments/assets/b1246a54-c630-4559-aa2f-41fddc727902)
