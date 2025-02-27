@@ -14,3 +14,4 @@ Features:
 [Mobile view 1](https://github.com/user-attachments/assets/b1246a54-c630-4559-aa2f-41fddc727902)
 [Mobile view 2](https://github.com/user-attachments/assets/c6ad48fe-24c4-44db-811d-2354cef8bc9f)
 
+Live site is available at: https://github.com/DEEPTHISMOULI/Sertie_UI_redesign
