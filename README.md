@@ -17,4 +17,8 @@ Screenshots of how the website front-end looks like:
 [Mobile view 1](https://github.com/user-attachments/assets/b1246a54-c630-4559-aa2f-41fddc727902)
 [Mobile view 2](https://github.com/user-attachments/assets/c6ad48fe-24c4-44db-811d-2354cef8bc9f)
 
-Live site is available at: https://github.com/DEEPTHISMOULI/Sertie_UI_redesign
+Live site is available at: https://drive.google.com/file/d/19ciERLK-ufrL9vM_47W3Xop_EXjB4Lri/view?usp=drive_link (Desktop view)
+                           https://drive.google.com/file/d/1Uwb9QMk9BFgfXBlB0V8pyKc-7TC1btVv/view?usp=drive_link (Mobile view)
+
+
+Watch the detailed explanation of the UI/UX redesign challenge 2 here: https://drive.google.com/file/d/1dh-rCzj8VWFw2w08qivQVJyS8hP4ZH9F/view?usp=drive_link
